@@ -5,7 +5,7 @@ metadata:
   labels:
     app: result
 spec:
-  replicas: 2
+  replicas: 1
   selector: 
     matchLabels:
       app: result
@@ -21,4 +21,5 @@ spec:
           ports:
             - containerPort: 80
               name: result
+
 
