@@ -5,7 +5,7 @@ metadata:
   labels: 
     app: db
 spec:
-  replicas: 2
+  replicas: 1
   selector: 
     matchLabels:
       app: db
@@ -26,3 +26,4 @@ spec:
           ports:
             - containerPort: 5432
               name: postgres
+
